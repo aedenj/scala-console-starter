@@ -20,6 +20,6 @@ Perform continuous compile of the local project with,
 docker-compose up
 ```
 
-Visit https://hub.docker.com/r/hseeberger/scala-sbt/tags to identify the version of scala you need.
+If you need to adjust the version of scala referenced in docker-compose.yml, visit https://hub.docker.com/r/hseeberger/scala-sbt/tags to identify the image you need.
 
 Run the app with something like `docker exec -it scala-console-starter_build_1 scala ./build/console.jar`
